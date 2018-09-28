@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assests/style.css">
+    <title>giphy app</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gif search</h1>
+
+        <!-- Rendered Buttons will be put Here  -->
+        <div id="buttons-view"></div>
+
+        <form id="gif-form">
+            <label for="gif-input">Add a New Gif</label>
+            <input type="text" id="gif-input">
+            <br>
+
+            <!-- Button triggers new gif to be added -->
+            <input id="add-gif" type="submit" value="Add a New Gif">
+        </form>
+
+        <!-- gifs will be put Here -->
+        <div id="gif-view"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assests/app.js"></script>
+</body>
+
+</html>
